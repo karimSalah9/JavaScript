@@ -1,0 +1,54 @@
+body{
+   
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    font-style: italic;
+    background-color: antiquewhite;
+    border-color: dimgrey;
+    color: cadetblue;
+   margin:auto;
+}
+h1{
+    color: dimgray;
+    font-style: oblique;
+}
+h2{
+    color: darkslategray;
+    font-style: normal;
+}
+
+#container {
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+.newGrid {
+    
+	margin-top :10px;
+  background-color: dimgray; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+input[type=number] {
+    width: 6em;
+}
